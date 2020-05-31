@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h1>Contact Details</h1>
+  <table>
+    <tr>
+      <td>📧</td>
+      <td>saila@gmail.com</td>
+    </tr>
+    <tr>
+      <td>📞</td>
+      <td>021 222 222</td>
+    </tr>
+    <tr></tr>
+  </table>
+  <hr noshade>
+  <h3>Create an Account</h3>
+  <form action="mailto:saila.wang@hotmail.com" method="post" enctype="text/plain">
+    <label>Name:</label>
+    <input type="text" name="Name" value=""><br>
+    <label>Email:</label>
+    <input type="email" name="Email"><br>
+    <label>Date of Birth:</label>
+    <input type="date" name="DOB"><br>
+    <label>Password:</label>
+    <input type="password" name="Password"><br>
+    <label for="Hero Choice">Choose a Character:</label>
+    <input list="Hero Choice">
+    <datalist id="Hero Choice">
+      <option value="Thief">
+      <option value="Bowman">
+      <option value="Warrior">
+      <option value="Magician">
+      <option value="Pirate">
+    </datalist><br>
+    <label>Upload Image:</label>
+    <input type="file"name="Image"><br>
+    <br>
+    <label>Leave a Message:</label><br>
+    <textarea name="Message" rows="10" cols="50"></textarea>
+    <br>
+    <label>Sign up to the email list</label>
+    <input type="checkbox" name="Subscribe"><br>
+    <input type="submit">
+  </form>
+
+</body>
+
+</html>
